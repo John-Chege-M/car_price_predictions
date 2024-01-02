@@ -4,7 +4,7 @@ import datetime
 import joblib
 
 
-model = joblib.load('D:\MACHINE LEARNING PROJECTS\car_price\car_price_predictor.pkl')
+model = joblib.load('car_price_predictor.pkl')
 #model.load_model('D:\MACHINE LEARNING PROJECTS\car_price\car_price_model.json')
 
 st.title("Car Price Prediction App")
